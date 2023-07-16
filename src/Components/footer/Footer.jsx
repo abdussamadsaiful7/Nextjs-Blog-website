@@ -1,9 +1,11 @@
 import React from 'react';
+import style from './page.module.css';
 
 const Footer = () => {
     return (
         <div>
-            Footer page
+            <div>@2023 Art Gallery. All right reserved</div>
+            <div></div>
         </div>
     );
 };
