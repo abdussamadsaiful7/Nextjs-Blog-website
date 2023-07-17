@@ -1,0 +1,49 @@
+.mainTitle{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.container{
+   padding-bottom: 80px; 
+}
+
+.selectTitle{
+    margin: 20px 0px;
+}
+
+.items{
+    display: flex;
+    gap: 50px;
+}
+
+.item{
+   border-radius: 5px;
+   border: 3px solid #bbb;
+   width: 300px;
+   height: 400px; 
+   position: relative;
+   background-size: cover !important;
+}
+
+.title{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item:nth-child(1){
+    background: url("/nature.jpg");
+}
+.item:nth-child(2){
+    background: url("/website.jpg");
+}
+.item:nth-child(3){
+    background: url("/app1.jpg");
+}
+
+.item:hover .title{
+    color: #53c28b;
+}
