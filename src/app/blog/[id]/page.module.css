@@ -1,0 +1,38 @@
+.container{
+
+}
+.top{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.title{
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.info{
+    width: 600px;
+    
+}
+.desc, .text{
+    font-family:serif;
+}
+.author{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.avatar{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.username{
+    font-family:'Courier New', Courier, monospace ;
+}
+
+.image{
+    border-radius: 5px;
+    margin: 10px;
+}

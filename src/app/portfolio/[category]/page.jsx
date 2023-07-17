@@ -44,6 +44,17 @@ const Category = ({ params }) => {
                     <Image className={style.img} src="/pic3.jpg" fill={true} alt="" />
                 </div>
             </div>
+            {/* card-4 */}
+            <div className={style.item}>
+                <div className={style.content}>
+                    <h1 className={style.title}>Exclusive Illustrators Design</h1>
+                    <p className={style.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aliquam dolore sed similique expedita, id quod amet aperiam at dolores earum possimus reiciendis neque nesciunt dolorum ipsa in. Et, omnis.</p>
+                    <Button text="See more" url="#" />
+                </div>
+                <div className={style.imgContainer}>
+                    <Image className={style.img} src="/pic4.jpg" fill={true} alt="" />
+                </div>
+            </div>
         </div>
     );
 };
