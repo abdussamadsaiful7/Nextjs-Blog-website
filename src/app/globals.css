@@ -12,8 +12,7 @@ html,
 body{
   max-width: 100%vw;
   overFlow-x:hidden;
-  background-color:  #111;
-  color: #bbb;
+ 
 }
 
 .bg{
@@ -24,5 +23,15 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.light{
+  background-color:  #fff;
+  color: #111;
+}
+
+.dark{
+  background-color:#111;
+  color: #fff;
 }
 
